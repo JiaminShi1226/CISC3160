@@ -53,7 +53,9 @@ x_2 = 0
 
 Input 3
 x = 0
+
 y = x;
+
 z = ---(x+y);
 
 Output 3
@@ -61,7 +63,9 @@ error
 
 Input 4
 x = 1;
+
 y = 2;
+
 z = ---(x+y)*(x+-y);
 
 Output 4
