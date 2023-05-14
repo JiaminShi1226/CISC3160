@@ -206,12 +206,16 @@ public class Interpreter{
       System.out.print("Output 2: ");
       System.out.println(" " + run(code));
       
-      code = "x = 0 y = x; z = ---(x + y);";
+      code = "x = 0 
+              y = x; 
+              z = ---(x + y);";
       System.out.println("Input 3: " + code);
       System.out.print("Output 3: ");
       System.out.println(" " + run(code));
       
-      code = "x = 1; y = 2; z = ---(x+y)*(x+-y);";
+      code = "x = 1; 
+              y = 2; 
+              z = ---(x+y)*(x+-y);";
       System.out.println("Input 4: " + code);
       System.out.print("Output 4: ");
       System.out.println(" " + run(code));
