@@ -37,7 +37,7 @@ Digit:
 	0|1|...|9
   
   
-**Sample inputs and outputs**
+## Sample inputs and outputs
 
 Input 1
 x = 001;
